@@ -2,6 +2,8 @@
 
 Automated stock valuation in Python. Enter a ticker, and the tool pulls live financials from Yahoo Finance, computes WACC via CAPM, models free cash flow growth with log-linear regression, and returns an intrinsic value, a percent over- or undervaluation, and a verdict, all with a table and graph.
 
+   [![Open In Colab To Run](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/YOUR-REPO/blob/main/YOUR-NOTEBOOK.ipynb)
+
 ## Overview
 
 A Discounted Cash Flow (DCF) model estimates what a company's stock is worth today based on its future cash flows. Building one by hand is slow: you have to gather financial data, build the model, and apply assumptions. This tool automates that process so any public company can be evaluated in seconds, while still letting the user control key assumptions.
